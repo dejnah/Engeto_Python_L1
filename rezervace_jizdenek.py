@@ -16,8 +16,12 @@ nabidka = """1 - Praha   | 150
 5 - Zlin    | 100
 6 - Ostrava | 180"""
 
-#VITEJTE U NASI APLIKACE DESTINATIO!
-#===================================
+
+# 1 - POZDRAV UŽIVATELE
+# 2 - Vypsání nabídky
+
+# VITEJTE U NASI APLIKACE DESTINATIO!
+# ===================================
 
 pozdrav = "VITEJTE U NASI APLIKACE DESTINATIO!"
 pocet = len(pozdrav)
@@ -28,11 +32,15 @@ print(cara)
 print(nabidka)
 print(cara)
 
+# Zadání vstupních dat od uživatele
+
 destinace = int(input("CISLO DESTINACE:"))
 jmeno = input("JMENO:")
 prijmeni = input("PRIJMENI:")
 email = input("EMAIL:")
 rok_narozeni = input("ROK NAROZENI:")
+
+# Výpis zpracovaných hodnot
 
 print(cara)
 print(mesta[destinace - 1])
